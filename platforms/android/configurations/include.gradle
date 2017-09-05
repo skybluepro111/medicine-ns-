@@ -1,0 +1,4 @@
+
+android {
+    flavorDimensions "nativescriptfancycalendar", "nativescriptpluginfirebase", "nativescripttelerikuipro", "tnscoremoduleswidgets"
+}

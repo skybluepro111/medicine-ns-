@@ -1,0 +1,18 @@
+.additem {
+    
+    }
+.label {
+    margin-top: 20px;
+    font-family: bold;
+    font-size: 16px;
+    color:black
+} 
+
+/* .input {
+    color: gray;
+    font-size: 10px;
+    border: 1px;
+} */
+.grid {
+    font-size: 10px;
+}

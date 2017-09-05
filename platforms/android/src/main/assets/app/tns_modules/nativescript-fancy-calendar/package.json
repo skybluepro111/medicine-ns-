@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-fancy-calendar@^3.0.0",
+        "scope": null,
+        "escapedName": "nativescript-fancy-calendar",
+        "name": "nativescript-fancy-calendar",
+        "rawSpec": "^3.0.0",
+        "spec": ">=3.0.0 <4.0.0",
+        "type": "range"
+      },
+      "F:\\work\\Web code ex\\Nativescript\\medicinebox\\medicine"
+    ]
+  ],
+  "_from": "nativescript-fancy-calendar@>=3.0.0 <4.0.0",
+  "_id": "nativescript-fancy-calendar@3.0.0",
+  "_inCache": true,
+  "_location": "/nativescript-fancy-calendar",
+  "_nodeVersion": "6.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/nativescript-fancy-calendar-3.0.0.tgz_1495629302904_0.12845583376474679"
+  },
+  "_npmUser": {
+    "name": "rhanb",
+    "email": "aniel.jeanbaptiste@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-fancy-calendar@^3.0.0",
+    "scope": null,
+    "escapedName": "nativescript-fancy-calendar",
+    "name": "nativescript-fancy-calendar",
+    "rawSpec": "^3.0.0",
+    "spec": ">=3.0.0 <4.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-fancy-calendar/-/nativescript-fancy-calendar-3.0.0.tgz",
+  "_shasum": "2683a759578136cf9e1309a4c2e24a92e5aa6646",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-fancy-calendar@^3.0.0",
+  "_where": "F:\\work\\Web code ex\\Nativescript\\medicinebox\\medicine",
+  "author": {
+    "name": "rhanbIT",
+    "email": "aniel.jeanbaptiste@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rhanbIT/nativescript-fancy-calendar/issues"
+  },
+  "dependencies": {},
+  "description": "Fancy calendar for NativeScript :smile: :beers:",
+  "devDependencies": {
+    "tns-core-modules": "^3.0.0",
+    "tns-platform-declarations": "^3.0.1",
+    "typescript": "^2.3.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "2683a759578136cf9e1309a4c2e24a92e5aa6646",
+    "tarball": "https://registry.npmjs.org/nativescript-fancy-calendar/-/nativescript-fancy-calendar-3.0.0.tgz"
+  },
+  "gitHead": "467c68af662c30388d88755f7e8f8cb21323b368",
+  "homepage": "https://github.com/rhanbIT/nativescript-fancy-calendar",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "TypeScript",
+    "Angular",
+    "Calendar",
+    "iOS",
+    "Material Design",
+    "Android"
+  ],
+  "main": "calendar",
+  "maintainers": [
+    {
+      "name": "rhanb",
+      "email": "aniel.jeanbaptiste@gmail.com"
+    }
+  ],
+  "name": "nativescript-fancy-calendar",
+  "nativescript": {
+    "platforms": {
+      "ios": "3.0.0",
+      "android": "3.0.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhanbIT/nativescript-fancy-calendar.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo && cd demo && tns run android --emulator",
+    "demo.ios": "npm run preparedemo && cd demo && tns run ios --emulator",
+    "demo.ios.device": "npm run preparedemo && cd demo && tns run ios",
+    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-fancy-calendar && tns plugin add .. && tns install",
+    "save": "cd demo && TNS_TYPESCRIPT_DECLARATIONS_PATH='$(pwd)/typingz' tns build ios",
+    "test.android": "cd demo && tns test android",
+    "test.ios": "cd demo && tns test ios --emulator",
+    "test.ios.device": "cd demo && tns test ios"
+  },
+  "typings": "index.d.ts",
+  "version": "3.0.0"
+}

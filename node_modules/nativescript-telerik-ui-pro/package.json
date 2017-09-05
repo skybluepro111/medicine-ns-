@@ -1,0 +1,135 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-telerik-ui-pro@^3.0.4",
+        "scope": null,
+        "escapedName": "nativescript-telerik-ui-pro",
+        "name": "nativescript-telerik-ui-pro",
+        "rawSpec": "^3.0.4",
+        "spec": ">=3.0.4 <4.0.0",
+        "type": "range"
+      },
+      "F:\\work\\Web code ex\\Nativescript\\medicinebox\\medicine"
+    ]
+  ],
+  "_from": "nativescript-telerik-ui-pro@>=3.0.4 <4.0.0",
+  "_id": "nativescript-telerik-ui-pro@3.0.4",
+  "_inCache": true,
+  "_location": "/nativescript-telerik-ui-pro",
+  "_nodeVersion": "6.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/nativescript-telerik-ui-pro-3.0.4.tgz_1500458342441_0.3304836458992213"
+  },
+  "_npmUser": {
+    "name": "amiorkov",
+    "email": "v.amiorkov@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-telerik-ui-pro@^3.0.4",
+    "scope": null,
+    "escapedName": "nativescript-telerik-ui-pro",
+    "name": "nativescript-telerik-ui-pro",
+    "rawSpec": "^3.0.4",
+    "spec": ">=3.0.4 <4.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-telerik-ui-pro/-/nativescript-telerik-ui-pro-3.0.4.tgz",
+  "_shasum": "493ce2b099d25278f0642b521e834621b09255a9",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-telerik-ui-pro@^3.0.4",
+  "_where": "F:\\work\\Web code ex\\Nativescript\\medicinebox\\medicine",
+  "author": {
+    "name": "Progress"
+  },
+  "bugs": {
+    "url": "https://github.com/telerik/nativescript-ui-feedback/issues"
+  },
+  "dependencies": {},
+  "description": "Progress NativeScript UI Pro is an upgrade of Progress NativeScript UI - a cross-platform UI components suite based on the native iOS and Android libraries provided by Telerik.",
+  "devDependencies": {
+    "@angular/common": "~4.0.0",
+    "@angular/compiler": "~4.0.0",
+    "@angular/compiler-cli": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "@angular/forms": "~4.0.0",
+    "@angular/http": "~4.0.0",
+    "@angular/platform-browser": "~4.0.0",
+    "@angular/platform-browser-dynamic": "~4.0.0",
+    "@angular/router": "~4.0.0",
+    "nativescript-angular": "next",
+    "nativescript-dev-typescript": "^0.3.0",
+    "nativescript-intl": "^0.0.4",
+    "nativescript-unit-test-runner": "^0.3.3",
+    "parse5": "1.3.2",
+    "punycode": "1.3.2",
+    "querystring": "0.2.0",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "~5.3.0",
+    "tns-core-modules": "next",
+    "tns-platform-declarations": "next",
+    "typescript": "2.4.1",
+    "url": "0.10.3",
+    "zone.js": "~0.8.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "493ce2b099d25278f0642b521e834621b09255a9",
+    "tarball": "https://registry.npmjs.org/nativescript-telerik-ui-pro/-/nativescript-telerik-ui-pro-3.0.4.tgz"
+  },
+  "files": [
+    "**/*.js",
+    "**/*.metadata.json",
+    "**/*.d.ts",
+    "platforms/",
+    "!hooks/"
+  ],
+  "keywords": [
+    "nativescript",
+    "ui",
+    "listview",
+    "sidedrawer",
+    "chart",
+    "calendar",
+    "dataform",
+    "gauges",
+    "autocomplete"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "maintainers": [
+    {
+      "name": "amiorkov",
+      "email": "v.amiorkov@gmail.com"
+    },
+    {
+      "name": "dginev",
+      "email": "deyan.ginev@telerik.com"
+    },
+    {
+      "name": "tns-bot",
+      "email": "nativescript@telerik.com"
+    }
+  ],
+  "name": "nativescript-telerik-ui-pro",
+  "nativescript": {
+    "ios": "3.1.0",
+    "android": "3.1.0"
+  },
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "tns-core-modules": "^3.1.0 || >3.2.0-"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/telerik/nativescript-ui-samples.git"
+  },
+  "scripts": {},
+  "version": "3.0.4"
+}

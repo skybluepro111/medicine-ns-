@@ -1,0 +1,19 @@
+<StackLayout class="m-t-20" width="97%" height="22%" borderRadius="15px" borderWidth="1px" borderColor="gray">
+    <FlexboxLayout style="flex-direction: row; justify-content: space-between;" height="35%" backgroundColor="lightgray">
+        <StackLayout orientation="horizontal" class="m-8">
+            <Image src="https://www.mulesoft.com/sites/default/files/save-time-integration.png"  width="40px", height="55px"></Image>
+            <Label text="07:10 am" fontSize="11px" class="m-t-5 m-l-12"></Label>
+            <Label text="Before breakfast" fontSize="9px" marginTop="14px"class="m-l-12"></Label>
+        </StackLayout>
+        <FlexboxLayout style="justify-content: flex-end" class="m-10">
+            <Label class="mdi" (tap)="editItem()" marginTop="10px" [text]="'mdi-create' | fonticon"></Label>
+        </FlexboxLayout>
+    </FlexboxLayout>
+    <StackLayout orientation="horizontal" class="m-8">
+            <Image src="https://www.mulesoft.com/sites/default/files/save-time-integration.png"  width="40px", height="55px"></Image>
+            <Label text="Vita Fusion" style="color: #4FBEED" fontSize="15px" class="m-t-4 m-l-12"></Label>
+    </StackLayout>
+    <FlexboxLayout justifycontent="flex-start" marginLeft="12%">
+        <Label text="400 micrograms (mcg) of folic acid" fontSize="9px"></Label>
+    </FlexboxLayout>
+</StackLayout>

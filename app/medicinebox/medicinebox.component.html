@@ -1,0 +1,45 @@
+<!-- <ScrollView> -->
+<StackLayout orientation="vertical">
+    <ActionBar class="medicineboxactionbar" title="Medicine Box" vertialAlignment="center">
+       <!-- <Label text="Medicine Box"></Label> -->
+    </ActionBar>
+   
+        <StackLayout class="content">
+            <Label text="Below is the medicine time table"></Label> 
+            <Label text="you have created for yourself"></Label>
+            <Button text="Add new item" (tap)="onTap()" class="btn btn-active addbutton"></Button>
+            <!-- <calendar></calendar> -->
+             
+        </StackLayout>
+        <StackLayout>
+        <ListView [items]="cards$ | async" width="97%"  separatorColor="transparent">
+            <ng-template let-item="item"> 
+                <StackLayout>
+                    <StackLayout class="m-t-10"  borderRadius="15px" borderWidth="1px" borderColor="gray">
+                
+                        <FlexboxLayout style="flex-direction: row; justify-content: space-between;" height="35%" backgroundColor="lightgray">
+                            <StackLayout orientation="horizontal" class="m-8">
+                                <Image src="https://www.mulesoft.com/sites/default/files/save-time-integration.png"  width="40px", height="55px"></Image>
+                                <Label [text]='item.startTime | date:"H:mm a"' fontSize="11px" class="m-t-5 m-l-12"></Label>
+                                <Label [text]='item.selectedDay' fontSize="9px" marginTop="14px"class="m-l-12"></Label>
+                            </StackLayout>
+                            <FlexboxLayout style="justify-content: flex-end" class="m-10">
+                                <Label class="mdi" (tap)="editItem(item.id)" marginTop="10px" [text]="'mdi-create' | fonticon"></Label>
+                            </FlexboxLayout>
+                        </FlexboxLayout>
+                        <StackLayout orientation="horizontal" class="m-8">
+                                <Image src="https://www.mulesoft.com/sites/default/files/save-time-integration.png"  width="40px", height="55px"></Image>
+                                <Label [text]="item.name" style="color: #4FBEED" fontSize="15px" class="m-t-4 m-l-12"></Label>
+                        </StackLayout>
+                    
+                        <FlexboxLayout justifycontent="flex-start" marginLeft="12%" marginBottom="26px">
+                            <Label [text]="item.note" fontSize="9px"></Label>}
+                        </FlexboxLayout>}
+                </StackLayout>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+    </StackLayout>
+    
+</StackLayout>
+<!-- </ScrollView> -->

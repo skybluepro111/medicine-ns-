@@ -1,0 +1,78 @@
+<StackLayout tkMainContent orientation="vertical" class="m">
+    <ActionBar title="" horizontalAlignment="center">
+        <NavigationButton text="" android.systemIcon="ic_menu_back" (tap)="goBack()"></NavigationButton>
+    </ActionBar>
+    <GridLayout>
+        <ScrollView>
+            <StackLayout margin="10">
+                <StackLayout class="form" padding="15" paddingTop="0" backgroundColor="#FFFFFF">
+                    <StackLayout>
+                            <Label text="Medicine Name" class="label"></Label>
+                            <TextField [(ngModel)]="name"  editable="true" hint="Eg: Prozac" fontSize="13px" autocorrect="false" class="m-t-15 input input-border"></TextField>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label text="Medicine Type" class="label"></Label>
+                        <TextField [(ngModel)]="type" hint="Syrup" fontSize="13px" class="input input-border m-t-15"></TextField>
+                     </StackLayout>
+                 
+                    <GridLayout columns="*,*">
+                        <StackLayout col="0"  style="padding-top:35px">
+                            <Label class="grid" text="Dosage" style="padding-bottom:40px; padding-left:20px"></Label>
+                            <TextField [(ngModel)]="dosage" hint="Eg: 5mg" style="font-size:10px; width:90%;" class="input input-border" ></TextField>
+                         
+                        </StackLayout>
+                        <StackLayout col="1" style="padding-top:35px">
+                            <Label class="grid" style="padding-bottom:16px; padding-left:10px" textWrap="true" text="How many tablets do you          have with you?" ></Label>
+                            <TextField hint=""  [(ngModel)]="count" style="font-size:10px; width:90%;" class="input input-border"></TextField>
+                        </StackLayout>
+                    </GridLayout>
+                    <Label class="label" text="Set start date & end date"></Label>
+                    <GridLayout columns="*,*">
+                        <StackLayout col="0"  style="padding-top:35px">
+                            <Label class="grid" text="Start date" style="padding-bottom:20px; padding-left:20px"></Label>
+                            <TextField color="#4CAFEC" [text]='startDate | date:"EE dd MMM, yyyy"' style="font-size:13px; width:90%;" (tap)="getStartDate()" class="input input-border" ></TextField>
+                            
+                        </StackLayout>
+                        <StackLayout col="1" style="padding-top:35px">
+                            <Label class="grid" style="padding-bottom:20px; padding-left:10px" textWrap="true" text="End date" ></Label>
+                            <TextField hint=""  color="#4CAFEC" [text]='endDate | date:"EE dd MMM, yyyy"' style="font-size:13px; width:90%;" (tap)="getEndDate()" class="input input-border"></TextField>
+                        </StackLayout>
+                    </GridLayout>
+                    <Label class="label" text="Set time"></Label>
+                    
+                    <Stacklayout orientation="horizontal">
+                            <StackLayout style="padding-top:35px;margin-right:18px">
+                                    <TextField style="padding-top:35px" color="#4CAFEC" [text]='startTime | date:"H:mm a"' style="font-size:13px; width:48%;" (tap)="getTime()" class="input input-border" ></TextField>
+                            </StackLayout>
+                        <StackLayout  orientation="horizontal" *ngFor="let option of mealOptions">
+                            <StackLayout  orientation="horizontal" verticalAlignment="center" style="margin-top:39px">
+                                <CheckBox #elem [checked]="option.selected"  (checkedChange)="elem.checked !== option.selected && changeCheckedMeal(option)" class="checkbox"></CheckBox>
+                                <StackLayout verticalAlignment="center">
+                                    <Label style="font-size:9px;"  [text]="option.text" textWrap="true" (tap)="changeCheckedMeal(option)"></Label>
+                                </StackLayout>
+                             </StackLayout>
+                        </StackLayout>
+                    </Stacklayout>
+                    <CheckBox style="font-size:10px" marginTop="19px" text="Everyday" id="Check3" (tap)="checkDay()" checked="false"></CheckBox>                        
+                    <Stacklayout orientation="horizontal">
+                        <StackLayout  orientation="horizontal" *ngFor="let option of radioOptions">
+                            <StackLayout verticalAlignment="center" style="margin-left:12px">
+                                <CheckBox #elem [checked]="option.selected"  (checkedChange)="elem.checked !== option.selected && changeCheckedRadio(option)" class="checkbox"></CheckBox>
+                                <StackLayout verticalAlignment="center" class="m-l-5">
+                                    <Label style="font-size:9px;"  [text]="option.text" textWrap="true" (tap)="changeCheckedRadio(option)"></Label>
+                                </StackLayout>
+                             </StackLayout>
+                        </StackLayout>
+                    </Stacklayout>
+                    <Label class="label" text="Precaution/Notes"></Label>
+                    <TextField fontSize="13px" [(ngModel)]="note" hint="Eg: Do not mix alcohol with this medicine"  class="input input-border m-t-15"></TextField>
+
+                    <CheckBox   style="font-size:10px" marginTop="19px" text="Forward to partner" id="Check5" (tap)="checkAfter()" checked="false"></CheckBox>
+                    <Button *ngIf= "flag" class="btn btn-primary btn-active additembutton" borderRadius="15px" width="40%" text="Save" (tap)="editCard(id)"></Button>
+                    <Button *ngIf= "!flag" class="btn btn-primary btn-active additembutton" borderRadius="15px" width="40%" text="Add new item" (tap)="addItem()"></Button>
+                </StackLayout>
+              
+            </StackLayout>
+        </ScrollView>
+    </GridLayout>
+</StackLayout>

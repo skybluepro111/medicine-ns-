@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-material-icons@^1.0.3",
+        "scope": null,
+        "escapedName": "nativescript-material-icons",
+        "name": "nativescript-material-icons",
+        "rawSpec": "^1.0.3",
+        "spec": ">=1.0.3 <2.0.0",
+        "type": "range"
+      },
+      "F:\\work\\Web code ex\\Nativescript\\medicinebox\\medicine"
+    ]
+  ],
+  "_from": "nativescript-material-icons@>=1.0.3 <2.0.0",
+  "_id": "nativescript-material-icons@1.0.3",
+  "_inCache": true,
+  "_location": "/nativescript-material-icons",
+  "_nodeVersion": "6.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-material-icons-1.0.3.tgz_1478865690925_0.09301134594716132"
+  },
+  "_npmUser": {
+    "name": "shripalsoni04",
+    "email": "shripalsoni04@gmail.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-material-icons@^1.0.3",
+    "scope": null,
+    "escapedName": "nativescript-material-icons",
+    "name": "nativescript-material-icons",
+    "rawSpec": "^1.0.3",
+    "spec": ">=1.0.3 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-material-icons/-/nativescript-material-icons-1.0.3.tgz",
+  "_shasum": "77fa8fdb78ec091dc4a6a7854e7685ea2895008c",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-material-icons@^1.0.3",
+  "_where": "F:\\work\\Web code ex\\Nativescript\\medicinebox\\medicine",
+  "author": {
+    "name": "Shripal Soni"
+  },
+  "bugs": {
+    "url": "https://github.com/shripalsoni04/nativescript-material-icons/issues"
+  },
+  "dependencies": {},
+  "description": "A package containing ready to use material design icon font and css classes for nativescript projects. ",
+  "devDependencies": {
+    "material-design-icons": "^3.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "77fa8fdb78ec091dc4a6a7854e7685ea2895008c",
+    "tarball": "https://registry.npmjs.org/nativescript-material-icons/-/nativescript-material-icons-1.0.3.tgz"
+  },
+  "gitHead": "63bcc97a3cff42a42e1d3ec9941d5c1295c565a5",
+  "homepage": "https://github.com/shripalsoni04/nativescript-material-icons#readme",
+  "keyeords": [
+    "nativescript",
+    "material design icons",
+    "nativescript material design icons"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "shripalsoni04",
+      "email": "shripalsoni04@gmail.com"
+    }
+  ],
+  "name": "nativescript-material-icons",
+  "nativescript": {
+    "platforms": {
+      "android": "2.3.0",
+      "ios": "2.3.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shripalsoni04/nativescript-material-icons.git"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js",
+    "postuninstall": "node scripts/postuninstall.js",
+    "prepare": "node scripts/prepare.js"
+  },
+  "version": "1.0.3"
+}

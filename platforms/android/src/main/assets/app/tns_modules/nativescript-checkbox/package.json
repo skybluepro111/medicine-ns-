@@ -1,50 +1,27 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "nativescript-checkbox@^2.1.11",
-        "scope": null,
-        "escapedName": "nativescript-checkbox",
-        "name": "nativescript-checkbox",
-        "rawSpec": "^2.1.11",
-        "spec": ">=2.1.11 <3.0.0",
-        "type": "range"
-      },
-      "F:\\work\\Web code ex\\Nativescript\\medicinebox\\medicine"
-    ]
-  ],
-  "_from": "nativescript-checkbox@>=2.1.11 <3.0.0",
+  "_from": "nativescript-checkbox@^2.1.11",
   "_id": "nativescript-checkbox@2.1.11",
-  "_inCache": true,
+  "_inBundle": false,
+  "_integrity": "sha1-WJpDiXu62WtJoguAOU7JgSdYyns=",
   "_location": "/nativescript-checkbox",
-  "_nodeVersion": "6.9.1",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/nativescript-checkbox-2.1.11.tgz_1500573614464_0.3318091039545834"
-  },
-  "_npmUser": {
-    "name": "walkerrunpdx",
-    "email": "walkerrunpdx@gmail.com"
-  },
-  "_npmVersion": "3.10.9",
   "_phantomChildren": {},
   "_requested": {
+    "type": "range",
+    "registry": true,
     "raw": "nativescript-checkbox@^2.1.11",
-    "scope": null,
-    "escapedName": "nativescript-checkbox",
     "name": "nativescript-checkbox",
+    "escapedName": "nativescript-checkbox",
     "rawSpec": "^2.1.11",
-    "spec": ">=2.1.11 <3.0.0",
-    "type": "range"
+    "saveSpec": null,
+    "fetchSpec": "^2.1.11"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-checkbox/-/nativescript-checkbox-2.1.11.tgz",
   "_shasum": "589a43897bbad96b49a20b80394ec9812758ca7b",
-  "_shrinkwrap": null,
   "_spec": "nativescript-checkbox@^2.1.11",
-  "_where": "F:\\work\\Web code ex\\Nativescript\\medicinebox\\medicine",
+  "_where": "F:\\work\\Web code ex\\medicine",
   "author": {
     "name": "Brad Martin",
     "email": "bradwaynemartin@gmail.com"
@@ -52,6 +29,7 @@
   "bugs": {
     "url": "https://github.com/bradmartin/nativescript-checkbox/issues"
   },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Nathan Walker",
@@ -74,14 +52,8 @@
       "url": "https://github.com/EddyVerbruggen"
     }
   ],
-  "dependencies": {},
+  "deprecated": false,
   "description": "NativeScript plugin for checkbox widget.",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "589a43897bbad96b49a20b80394ec9812758ca7b",
-    "tarball": "https://registry.npmjs.org/nativescript-checkbox/-/nativescript-checkbox-2.1.11.tgz"
-  },
   "homepage": "https://github.com/bradmartin/nativescript-checkbox",
   "keywords": [
     "NativeScript",
@@ -99,28 +71,6 @@
     ]
   },
   "main": "checkbox",
-  "maintainers": [
-    {
-      "name": "bradmartin",
-      "email": "bradmartin0905@gmail.com"
-    },
-    {
-      "name": "eddyverbruggen",
-      "email": "eddyverbruggen@gmail.com"
-    },
-    {
-      "name": "sitefinitysteve",
-      "email": "steve@sitefinitysteve.com"
-    },
-    {
-      "name": "triniwiz",
-      "email": "fortune.osei@yahoo.com"
-    },
-    {
-      "name": "walkerrunpdx",
-      "email": "walkerrunpdx@gmail.com"
-    }
-  ],
   "name": "nativescript-checkbox",
   "nativescript": {
     "platforms": {
@@ -128,11 +78,9 @@
       "ios": "3.0.1"
     }
   },
-  "optionalDependencies": {},
   "peerDependencies": {
     "tns-core-modules": "^3.0.0"
   },
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bradmartin/nativescript-checkbox.git"

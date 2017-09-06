@@ -21,7 +21,7 @@
                             <StackLayout orientation="horizontal" class="m-8">
                                 <Image src="https://www.mulesoft.com/sites/default/files/save-time-integration.png"  width="40px", height="55px"></Image>
                                 <Label [text]='item.startTime | date:"H:mm a"' fontSize="11px" class="m-t-5 m-l-12"></Label>
-                                <Label [text]='item.selectedDay' fontSize="9px" marginTop="14px"class="m-l-12"></Label>
+                                <Label [text]='item.selectedDay' fontSize="9px" marginTop="14px" class="m-l-12"></Label>
                             </StackLayout>
                             <FlexboxLayout style="justify-content: flex-end" class="m-10">
                                 <Label class="mdi" (tap)="editItem(item.id)" marginTop="10px" [text]="'mdi-create' | fonticon"></Label>
@@ -33,8 +33,8 @@
                         </StackLayout>
                     
                         <FlexboxLayout justifycontent="flex-start" marginLeft="12%" marginBottom="26px">
-                            <Label [text]="item.note" fontSize="9px"></Label>}
-                        </FlexboxLayout>}
+                            <Label [text]="item.note" fontSize="9px"></Label>
+                        </FlexboxLayout>
                 </StackLayout>
             </StackLayout>
         </ng-template>

@@ -1,51 +1,27 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "nativescript-plugin-firebase",
-        "scope": null,
-        "escapedName": "nativescript-plugin-firebase",
-        "name": "nativescript-plugin-firebase",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "F:\\work\\Web code ex\\Nativescript\\medicinebox\\medicine"
-    ]
-  ],
-  "_from": "nativescript-plugin-firebase@latest",
+  "_from": "nativescript-plugin-firebase@^4.0.6",
   "_id": "nativescript-plugin-firebase@4.0.6",
-  "_inCache": true,
+  "_inBundle": false,
+  "_integrity": "sha1-WgRaU6kWPxB50HDxclYI/HLipxo=",
   "_location": "/nativescript-plugin-firebase",
-  "_nodeVersion": "6.10.3",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/nativescript-plugin-firebase-4.0.6.tgz_1503492655364_0.007515340344980359"
-  },
-  "_npmUser": {
-    "name": "eddyverbruggen",
-    "email": "eddyverbruggen@gmail.com"
-  },
-  "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "nativescript-plugin-firebase",
-    "scope": null,
-    "escapedName": "nativescript-plugin-firebase",
+    "type": "range",
+    "registry": true,
+    "raw": "nativescript-plugin-firebase@^4.0.6",
     "name": "nativescript-plugin-firebase",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "escapedName": "nativescript-plugin-firebase",
+    "rawSpec": "^4.0.6",
+    "saveSpec": null,
+    "fetchSpec": "^4.0.6"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-4.0.6.tgz",
   "_shasum": "5a045a53a9163f1079d070f1725608fc72e2a71a",
-  "_shrinkwrap": null,
-  "_spec": "nativescript-plugin-firebase",
-  "_where": "F:\\work\\Web code ex\\Nativescript\\medicinebox\\medicine",
+  "_spec": "nativescript-plugin-firebase@^4.0.6",
+  "_where": "F:\\work\\Web code ex\\medicine",
   "author": {
     "name": "Telerik / Eddy Verbruggen",
     "email": "eddyverbruggen@gmail.com"
@@ -53,6 +29,7 @@
   "bugs": {
     "url": "https://github.com/eddyverbruggen/nativescript-plugin-firebase/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "fs-extra": "~2.1.0",
     "fs-promise": "~2.0.0",
@@ -60,6 +37,7 @@
     "prompt-lite": "~0.1.0",
     "xcode": "~0.9.0"
   },
+  "deprecated": false,
   "description": "Fire. Base. Firebase!",
   "devDependencies": {
     "prompt-lite": "~0.1.0",
@@ -67,12 +45,6 @@
     "webpack": "~2.2.0",
     "xcode": "~0.9.0"
   },
-  "directories": {},
-  "dist": {
-    "shasum": "5a045a53a9163f1079d070f1725608fc72e2a71a",
-    "tarball": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-4.0.6.tgz"
-  },
-  "gitHead": "6649521a043957fbde4b5280a90e513738b745b1",
   "homepage": "https://github.com/eddyverbruggen/nativescript-plugin-firebase",
   "keywords": [
     "NativeScript",
@@ -92,12 +64,6 @@
   ],
   "license": "MIT",
   "main": "firebase",
-  "maintainers": [
-    {
-      "name": "eddyverbruggen",
-      "email": "eddyverbruggen@gmail.com"
-    }
-  ],
   "name": "nativescript-plugin-firebase",
   "nativescript": {
     "platforms": {
@@ -123,8 +89,6 @@
       }
     ]
   },
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eddyverbruggen/nativescript-plugin-firebase.git"

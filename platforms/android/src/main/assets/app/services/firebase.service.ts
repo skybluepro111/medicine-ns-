@@ -94,7 +94,7 @@ export class FirebaseService {
     this.publishUpdates();
     return firebase.update("/cards/"+id+"",{
         startTime: new Date(startTime).getTime(), 
-        meal: meal,
+        selectedDay: meal,
         name: name,
         note: note
       })
